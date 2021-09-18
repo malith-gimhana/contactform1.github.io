@@ -1,0 +1,160 @@
+@import url('https://fonts.google.com/css?family=Ubuntu');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+body{
+    background-image: url(back.jpg);
+}
+
+.contact-me{
+    width: 250px;
+    background: #fff;
+    padding: 50px;
+    margin: 80px auto;
+    border-radius: 30px;
+    position: relative;
+}
+
+.title h1{
+    clear: #535274;
+    letter-spacing: 5px;margin-bottom: 25px;
+    text-align: center;
+}
+
+.form,
+.form-items{
+    width: 100%;
+}
+
+.form-items .input{
+    width: 100%;
+    margin-bottom: 12px;
+    padding: 15px 40px;
+    box-sizing: border-box;
+    background: #ebeef1;
+    border: 0;
+    outline: none;border-radius: 30px;
+
+}
+
+.form-items .input.message{
+    height: 125px;
+    border-radius: 15px;
+    margin-bottom: 30px;
+    padding: 15px;
+    resize: none;
+}
+
+.btn{
+    background: #4240c2;
+    text-align: center;
+    color: #fff;
+    padding: 12px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.btn .fa{
+    margin-left: 10px;
+    font-size: 12px;
+}
+
+.form-items{
+    position: relative;
+}
+
+.form-items .fa{
+    position:absolute;
+    top: 15px;
+    left: 15px;
+    color: #9a99aa;
+}
+
+.social-icons{
+    position: absolute;
+    bottom: -25px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 200px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.social-icons div{
+    width: 50px;
+    height: 50px;
+    background:  hsl(308, 77%, 57%);
+    border-radius: 50%;
+    position: relative;
+    cursor: pointer;
+}
+
+.social-icons div .fab{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #fff;
+}
+
+.social-icons div.facebook{
+    background: #5178d9;
+}
+
+.social-icons div.twitter{
+    background: #41caf6;
+}
+
+.social-icons div.instagram{
+    background: hsl(308, 77%, 57%);
+}
+
+
+
+body{
+    background-image: url(back.jpg);
+   
+    font-family: sans-serif;
+}
+
+.menu-bar
+{
+    background-color: rgb(0,0,100);
+    text-align: center;
+}
+
+.menu-bar ul
+{
+    display: inline-flex;
+    list-style: none;
+    color: #fff;
+}
+
+.menu-bar ul li
+{
+    width: 120px;
+    margin: 15px;
+    padding: 15px; 
+}
+
+.menu-bar ul li a
+{
+    text-decoration: none;
+    color: #fff;
+}
+
+.active, .menu-bar ul li:hover
+{
+    background: #2ba;
+    border-radius: 3px;
+}
+
+.menu-bar .fa
+{
+    margin-right: 8px;
+}
